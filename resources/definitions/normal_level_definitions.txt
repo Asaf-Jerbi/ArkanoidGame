@@ -1,0 +1,76 @@
+
+# Level 1
+# alan turing
+
+START_LEVEL
+level_name:alan turing
+ball_velocities:180,8
+background:image(background_images/alan_turing.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/turing_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:4
+START_BLOCKS
+-
+-z-z-z-z-z
+-
+-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# ghost
+
+START_LEVEL
+level_name: ghost
+ball_velocities:15,8 45,8 75,8
+background:image(background_images/ghost.jpg)
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/ghost_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:18
+START_BLOCKS
+-
+l-l-l-l-l--l-l-l-l-l
+-
+-
+z-z-z-z-z--z-z-z-z-z
+-
+-
+l-l-l-l-l--l-l-l-l-l
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Dice
+
+START_LEVEL
+level_name: Dice
+ball_velocities:45,8
+background:image(background_images/dice.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/dice_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:75
+num_blocks:30
+START_BLOCKS
+-ll-l-l-ll-
+-zz-z-z-zz-
+-lz-l-z-lz-
+-ll-l-l-ll-
+-zz-z-z-zz-
+-
+-
+END_BLOCKS
+END_LEVEL
