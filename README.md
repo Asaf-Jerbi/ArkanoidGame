@@ -1,2 +1,3 @@
-# ArkanoidGame
-A game which I developed during OOP course at Bar-Ilan University, I graduated the course with grade 93.
+# Arkanoid game
+This game was developed completely by me from scratch starting from design and ending with design patterns, mathematical calculations and efficent methods. 
+I used JAVA and OOP principles needed for keeping this code cohesive and loosely coupled.
